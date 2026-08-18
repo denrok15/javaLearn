@@ -15,6 +15,8 @@ public class Task {
         return priority;
     }
 
-
-    // конструктор + геттеры
+    @Override
+    public String toString() {
+        return "Task{id=" + id + ", priority=" + priority + '}';
+    }
 }
