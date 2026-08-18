@@ -1,0 +1,1 @@
+public enum Priority { HIGH, NORMAL, LOW }
